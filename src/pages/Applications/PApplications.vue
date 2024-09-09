@@ -14,7 +14,7 @@
       <a
         v-if="item['graduate']"
         :href="
-          'https://autonline.uz/api/v1' +
+          'https://backend.it-istedod.uz/api/v1' +
           item['graduate'] +
           '?unique_dir=' +
           item['uniqueDir']
@@ -29,7 +29,7 @@
       <a
         v-if="item['scientificArticle']"
         :href="
-          'https://autonline.uz/api/v1' +
+          'https://backend.it-istedod.uz/api/v1' +
           item['scientificArticle'] +
           '?unique_dir=' +
           item['uniqueDir']
@@ -44,7 +44,7 @@
       <a
         v-if="item['foreignLanguageLevel']"
         :href="
-          'https://autonline.uz/api/v1' +
+          'https://backend.it-istedod.uz/api/v1' +
           item['foreignLanguageLevel'] +
           '?unique_dir=' +
           item['uniqueDir']
@@ -59,7 +59,7 @@
       <a
         v-if="item['nationalItCertificate']"
         :href="
-          'https://autonline.uz/api/v1' +
+          'https://backend.it-istedod.uz/api/v1' +
           item['nationalItCertificate'] +
           '?unique_dir=' +
           item['uniqueDir']
@@ -74,7 +74,7 @@
       <a
         v-if="item['subjectOlympiads']"
         :href="
-          'https://autonline.uz/api/v1' +
+          'https://backend.it-istedod.uz/api/v1' +
           item['subjectOlympiads'] +
           '?unique_dir=' +
           item['uniqueDir']
@@ -89,7 +89,7 @@
       <a
         v-if="item['personalEssay']"
         :href="
-          'https://autonline.uz/api/v1' +
+          'https://backend.it-istedod.uz/api/v1' +
           item['personalEssay'] +
           '?unique_dir=' +
           item['uniqueDir']
@@ -104,7 +104,7 @@
       <a
         v-if="item['hackathonItCertificate']"
         :href="
-          'https://autonline.uz/api/v1' +
+          'https://backend.it-istedod.uz/api/v1' +
           item['hackathonItCertificate'] +
           '?unique_dir=' +
           item['uniqueDir']
@@ -119,7 +119,7 @@
       <a
         v-if="item['icpcCertificate']"
         :href="
-          'https://autonline.uz/api/v1' +
+          'https://backend.it-istedod.uz/api/v1' +
           item['icpcCertificate'] +
           '?unique_dir=' +
           item['uniqueDir']
@@ -134,7 +134,7 @@
       <a
         v-if="item['socialActiveCertificate']"
         :href="
-          'https://autonline.uz/api/v1' +
+          'https://backend.it-istedod.uz/api/v1' +
           item['socialActiveCertificate'] +
           '?unique_dir=' +
           item['uniqueDir']
@@ -149,7 +149,7 @@
       <a
         v-if="item['governmentVolunteerCertificate']"
         :href="
-          'https://autonline.uz/api/v1' +
+          'https://backend.it-istedod.uz/api/v1' +
           item['governmentVolunteerCertificate'] +
           '?unique_dir=' +
           item['uniqueDir']
@@ -164,7 +164,8 @@
       <a
         v-if="item['limitedPersonDocument']"
         :href="
-          'https://autonline.uz/api/v1' +
+          '\n' +
+          'https://backend.it-istedod.uz/api/v1' +
           item['limitedPersonDocument'] +
           '?unique_dir=' +
           item['uniqueDir']
